@@ -1,0 +1,48 @@
+*, html, body{margin: 0; padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% auto;
+}
+.preview, .controlls{
+    width: 45%;
+}
+.view, .list{
+    height: 600px;
+    border: 1px solid black;
+}
+.add, .zoom{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.button{
+    padding: 4px;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.img_cont{
+    width: 100px;
+}
+.img{
+    width: 100%;
+}
+.list{
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    overflow-y: scroll;
+}
+.list li{
+    padding: 10px 0;
+    background: #eeeeee;
+    cursor: pointer;
+}
+.list li:not(:last-child){
+    margin-bottom: 10px;
+}
